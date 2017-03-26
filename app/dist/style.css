@@ -1,0 +1,27 @@
+.blink{color: red;
+    text-decoration: blink;
+    background: #000;
+    font-size: 30px;
+    font-weight: bolder;
+    animation: 0.5;
+    animation-fill-mode: forwards;
+    animation-name: initial;
+    -webkit-border-after-color: red;
+    -webkit-border-start-color: blue;
+}
+.blink:hover {
+  transform: translateY(-50px) rotate(90deg);
+  color: white;
+  background: red;
+}
+.boys{color: red;
+    text-decoration: blink;
+    background: #000;
+    font-size: 30px;
+    font-weight: bolder;
+    animation: 0.5;
+    animation-fill-mode: forwards;
+    animation-name: initial;
+    -webkit-border-after-color: red;
+    -webkit-border-start-color: blue;
+}
